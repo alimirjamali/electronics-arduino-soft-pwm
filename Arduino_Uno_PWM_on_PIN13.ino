@@ -21,6 +21,7 @@ void setup()
 
 void loop() 
 {
+  // Going for 3600 steps per cycle
   for (float a=0.0; a<360.0; a+=myStep)
   {
     // Calculatign delay for to emulate a sine wave
